@@ -292,15 +292,8 @@ def decompress_framed(frame_stream: typing.BinaryIO, out_stream: typing.BinaryIO
             raise ValueError("unexpected frame")
 
 
-def main(in_path, out_path):
+def _main(in_path, out_path):
     import pathlib
-    import hashlib
-    # f = pathlib.Path(path).open("rb")
-    # decompressed = decompress(f)
-    # print(decompressed)
-    # sha1 = hashlib.sha1()
-    # sha1.update(decompressed)
-    # print(sha1.hexdigest())
 
     in_path = pathlib.Path(in_path)
     out_path = pathlib.Path(out_path)
@@ -310,4 +303,4 @@ def main(in_path, out_path):
 
 
 if __name__ == "__main__":
-    main(sys.argv[1], sys.argv[2])
+    _main(sys.argv[1], sys.argv[2])
