@@ -27,5 +27,5 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/cclgroupltd/ccl_chromium_reader"
-Issues = "https://github.com/cclgroupltd/ccl_chromium_reader/issues"
+Homepage = "https://github.com/cclgroupltd/ccl_simplesnappy"
+Issues = "https://github.com/cclgroupltd/ccl_simplesnappy/issues"
